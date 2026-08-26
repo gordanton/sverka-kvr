@@ -1,0 +1,7 @@
+# Скопируйте значения в существующий файл .env
+# Запуск приложения: streamlit run app.py
+
+# Ключ и адрес вашего Proxy API (OpenAI-совместимый)
+PROXY_API_KEY=
+PROXY_BASE_URL=https://api.proxyapi.ru/openai/v1
+PROXY_MODEL=gpt-4o-mini

@@ -1,0 +1,33 @@
+# Secrets
+.env
+.env.local
+.env.*
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Tools
+.idea/
+.vscode/
+.streamlit/secrets.toml
+
+# OS
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Local dumps and archives
+*.rar
+*.zip
+for cursor.pdf
+Результат_заполнения_*.xlsx
+_preview.csv
+_cols.txt
+_*.xlsx
+_*.csv
