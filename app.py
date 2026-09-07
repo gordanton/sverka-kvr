@@ -87,9 +87,9 @@ with st.sidebar:
     )
     st.divider()
     st.markdown(
-        "Запуск локально:\n\n"
-        "`pip install -r requirements.txt`\n\n"
-        "`streamlit run app.py`"
+        "Запуск:\n\n"
+        "`streamlit run app.py`\n\n"
+        "или `docker compose up --build`"
     )
 
 uploaded = st.file_uploader("Загрузите чек-лист Excel", type=["xlsx"])

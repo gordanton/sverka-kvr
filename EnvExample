@@ -1,5 +1,7 @@
 # Скопируйте значения в существующий файл .env
-# Запуск приложения: streamlit run app.py
+# Локально: streamlit run app.py
+# Docker: docker compose up -d --build
+# Файл .env в образ не копируется: compose читает его через env_file.
 
 # Ключ и адрес вашего Proxy API (OpenAI-совместимый)
 PROXY_API_KEY=
